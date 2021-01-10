@@ -19,6 +19,8 @@ The service runs on port 8080 and exposes a REST endpoint at the route /starship
 
 The url parameter "order" can be passed with a value of either "asc" or "desc" to specify the order of the results.
 
+The requirements did not specify how the data should be stored in the backend so I kept it simple by storing the data in a single json file.
+
 ### Deployment
 
 A Dockerfile has been included to build the service container.
